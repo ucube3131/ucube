@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Neon Profile Page</title>
+    <style>
+      /* Sayfa genelinde kullanılacak stiller */
+      body {
+        background-color: #212121;
+        color: white;
+        font-family: Arial, sans-serif;
+      }
+      h1, h2, h3, h4, h5, h6 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 900;
+      }
+      
+      /* Profil sayfası stilleri */
+      .profile {
+        background-color: #292929;
+        padding: 200px;
+        box-shadow: 0 0 20px #f600b6,
+                    0 0 40px #f600b6,
+                    0 0 60px #f600b6,
+                    0 0 80px #f600b6;
+        text-align: center;
+      }
+      .profile img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid white;
+        margin-top: -100px;
+        margin-bottom: 20px;
+        text-shadow: 0 0 20px #f600b6,
+                     0 0 40px #f600b6,
+                     0 0 60px #f600b6,
+                     0 0 80px #f600b6;
+        animation: neon-glow 1s ease-in-out infinite alternate;
+      }
+      .profile h1 {
+        font-size: 48px;
+        margin-bottom: 10px;
+        text-shadow: 0 0 20px #f600b6,
+                     0 0 40px #f600b6,
+                     0 0 60px #f600b6,
+                     0 0 80px #f600b6;
+        animation: neon-glow 1s ease-in-out infinite alternate;
+      }
+      .profile p {
+        font-size: 24px;
+      }
+      
+      /* Neon animasyonu */
+      @keyframes neon-glow {
+        from {
+          box-shadow: 0 0 20px #f600b6,
+                      0 0 40px #f600b6,
+                      0 0 60px #f600b6,
+                      0 0 80px #f600b6;
+        }
+        to {
+          box-shadow: 0 0 30px #f600b6,
+                      0 0 50px #f600b6,
+                      0 0 70px #f600b6,
+                      0 0 90px #f600b6;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="profile">
+      <img src="https://via.placeholder.com/200x200" alt="Profile Picture
